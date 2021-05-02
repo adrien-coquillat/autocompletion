@@ -9,11 +9,14 @@
 </head>
 
 <body>
-    <div id="test"></div>
+    <h1>Hello word</h1>
 
     <form action="" method="get">
-        <input type="text" name="search" id="search">
+        <input  list="suggestList" name="search" id="search" autocomplete="off">
+        <datalist id="suggestList">
+        </datalist>
         <input type="button" id="submit" value="ok"></button>
+
     </form>
 
 
